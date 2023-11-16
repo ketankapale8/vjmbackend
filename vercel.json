@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "native-server",
+    "name": "vjmbackend",
     "builds": [{ "src": "server.js", "use": "@vercel/node" }],
     "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
   }
